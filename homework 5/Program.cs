@@ -41,7 +41,7 @@ void PrintArray(int[] numbers)
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-
+/*
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
@@ -73,13 +73,13 @@ void PrintArray(int[] numbers)
     Console.WriteLine();
 }
 
-
+*/
 
 // Задача 38: Задайте массив вещественных чисел. 
 // Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
 
-/*
+
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 double[] numbers = new double[size];
@@ -121,4 +121,3 @@ void PrintArray(double[] numbers)
     Console.Write("]");
     Console.WriteLine();
 }
-*/
